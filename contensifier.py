@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import re
 import argparse
+import urllib
 
 # arguments setup
 parser = argparse.ArgumentParser(description='Auto-generate a linked TOC for a markdown doc')
@@ -8,7 +9,7 @@ parser.add_argument('filename', type=str, help='markdown file')
 args = parser.parse_args()
 
 # open the file
-doc = file(args.filename,'rw')
+doc = urllib.urlopen(args.filename)
 
 # get tags
 taglist = []
