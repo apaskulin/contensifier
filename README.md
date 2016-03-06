@@ -16,3 +16,8 @@ Create a symbolic link in your PATH and contensify anywhere, anytime.
   - ex: `$ ln -s ~/Repositories/contensifier/contensifier.py /usr/local/bin/contensify`
 2. Restart your terminal
 3. `$ contensify [filepath/yourdocument.md]`
+
+### use a URL instead of a local file
+
+- `$ contensify [url]`
+- ex: `$ contensify https://raw.githubusercontent.com/apaskulin/contensifier/master/TESTDOC.md`
