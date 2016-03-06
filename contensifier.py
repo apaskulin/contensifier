@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import re
 import argparse
+import urllib
 
 punctuation_regex = r'[^\w\- ]' # https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/toc_filter.rb#L26
 
@@ -10,7 +11,7 @@ parser.add_argument('filename', type=str, help='markdown file')
 args = parser.parse_args()
 
 # open the file
-doc = file(args.filename,'rw')
+doc = urllib.urlopen(args.filename)
 
 # get lines with headings
 taglist = []
