@@ -8,15 +8,15 @@ This note demonstrates some of what [Markdown][1] is capable of doing.
 
 - [Basic formatting](#basic-formatting)
 - [Lists](#lists)
-	- [Ordered list](#ordered-list)
+	- [Ordered_list_time, oh yeah](#ordered_list_time-oh-yeah)
 	- [Unordered list](#unordered-list)
-- [Paragraph modifiers](#paragraph-modifiers)
-	- [Code block](#code-block)
-	- [Quote](#quote)
+- [Paragraph, modifiers?](#paragraph-modifiers)
+	- [Code block!!](#code-block)
+	- [Quote^whoa!](#quotewhoa)
 - [Headings](#headings)
 - [URLs](#urls)
 - [Horizontal rule](#horizontal-rule)
-	- [Examples & more examples!](#examples-&-more-examples!)
+	- [Examples & more examples!](#examples--more-examples)
 - [Images](#images)
 	- [Sub-heading example](#sub-heading-example)
 - [Finally](#finally)
@@ -29,7 +29,7 @@ Paragraphs must be separated by a blank line. Basic formatting of *italics* and 
 
 ## Lists
 
-### Ordered list
+### Ordered_list_time, oh yeah
 
 1. Item 1
 2. A second item
@@ -45,15 +45,15 @@ Paragraphs must be separated by a blank line. Basic formatting of *italics* and 
 * Yet another item
 * And there's more...
 
-## Paragraph modifiers
+## Paragraph, modifiers?
 
-### Code block
+### Code block!!
 
     Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
 
 You can also make `inline code` to add code into other things.
 
-### Quote
+### Quote^whoa!
 
 > Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
 
