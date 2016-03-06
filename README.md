@@ -21,3 +21,5 @@ Create a symbolic link in your PATH and contensify anywhere, anytime.
 
 - `$ contensify [url]`
 - ex: `$ contensify https://raw.githubusercontent.com/apaskulin/contensifier/master/TESTDOC.md`
+
+[![Build Status](https://travis-ci.org/apaskulin/contensifier.svg?branch=master)](https://travis-ci.org/apaskulin/contensifier)
